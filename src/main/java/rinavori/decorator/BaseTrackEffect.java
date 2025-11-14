@@ -2,7 +2,7 @@ package rinavori.decorator;
 
 public class BaseTrackEffect implements TrackEffect {
     @Override
-    public void apply() {
-        System.out.println("Playing without sound effects");
-    }
+    public String describe() { return "No effects"; }
+    @Override
+    public void apply() { System.out.println("Playing without effects."); }
 }
