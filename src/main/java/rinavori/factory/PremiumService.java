@@ -3,6 +3,6 @@ package rinavori.factory;
 public class PremiumService implements StreamingService {
     @Override
     public void play() {
-        System.out.println("Premium Service: without ads, high quality.");
+        System.out.println("Service: Premium plan — high quality, no ads.");
     }
 }
