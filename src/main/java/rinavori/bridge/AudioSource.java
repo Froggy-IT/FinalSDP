@@ -1,2 +1,5 @@
 package rinavori.bridge;
-public interface AudioSource { void load(String trackName); }
+public interface AudioSource {
+    void play(String resourceName);
+    void stop();
+}
