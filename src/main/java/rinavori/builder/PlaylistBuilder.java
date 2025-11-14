@@ -16,5 +16,7 @@ public class PlaylistBuilder {
         return this;
     }
 
-    public Playlist build() { return playlist; }
+    public Playlist build() {
+        return playlist;
+    }
 }
