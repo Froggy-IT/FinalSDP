@@ -1,15 +1,14 @@
-# Design Patterns Project  
-### Course Assignment — Java Implementation
+Design Patterns Project  
+Course Assignment — Java Implementation
 
 This project demonstrates the practical application of several structural and behavioral design patterns in Java, following clean code principles, SOLID, and proper project structuring.
 
 The implementation includes interactive console-based demos, allowing users to choose actions and observe how each pattern works in practice.
 
----
 
-## 📌 Implemented Design Patterns
+Implemented Design Patterns
 
-### **1. Bridge Pattern**  
+**1. Bridge Pattern**  
 Separates abstraction from implementation, allowing both to vary independently.  
 Used to decouple different types of players from the game mechanics.
 
@@ -18,9 +17,8 @@ Used to decouple different types of players from the game mechanics.
 - Different ability implementations
 - Unified interface for executing abilities
 
----
 
-### **2. Visitor Pattern**  
+**2. Visitor Pattern**  
 Adds new operations to existing object structures without modifying them.  
 Applied to various in-game items and objects that accept different types of visitors.
 
@@ -29,9 +27,8 @@ Applied to various in-game items and objects that accept different types of visi
 - Visitors that apply effects (`BuffVisitor`, `DamageVisitor`)
 - Extensible without changing item classes
 
----
 
-### **3. Strategy Pattern**  
+**3. Strategy Pattern**  
 Defines a family of interchangeable algorithms and encapsulates them.  
 Used for different attack and movement strategies.
 
@@ -40,10 +37,9 @@ Used for different attack and movement strategies.
 - Movement strategies (Aggressive, Defensive, Balanced)
 - Dynamic strategy switching during runtime
 
----
-## 👥 Team Members & Contributions
+Team Members & Contributions
 
-### 👤 Student 1 — Kalzhanov Zhansultan
+Student 1 — Kalzhanov Zhansultan
 Responsible for:
 - Project structure and base architecture  
 - Implementation of initial interfaces and abstract classes  
@@ -52,9 +48,7 @@ Responsible for:
 - Documentation and minor refactoring  
 
 
----
-
-### 👤 Student 2 — Amanzhol Aldiyar
+Student 2 — Amanzhol Aldiyar
 Responsible for implementation of **three major design patterns**:
 
 #### ✔ Visitor Pattern
@@ -75,7 +69,7 @@ Responsible for implementation of **three major design patterns**:
 - Console demo with selectable strategies  
 
 
-### 📌 Additional Responsibilities of Student 2
+### Additional Responsibilities of Student 2
 Amanzhol Aldiyar also contributed significantly to the practical execution of the project:
 
 - **Wrote the entire `Main` class**, including:
@@ -96,9 +90,8 @@ Amanzhol Aldiyar also contributed significantly to the practical execution of th
   Ensured the application works end-to-end, fixed mismatched class calls,  
   and unified output formatting across all patterns.
 
----
 
-### 📝 Summary of Student 2 Role
+### Summary of Student 2 Role
 Amanzhol Aldiyar served as the **core developer responsible for all behavioral and structural logic** in the project.  
 He not only implemented the key patterns (Visitor, Bridge, Strategy),  
 but also developed the interactive main program that ties the entire system together.  
