@@ -1,5 +1,4 @@
 package rinavori.factory;
-
 public class PremiumService implements StreamingService {
     @Override
     public void play() {
