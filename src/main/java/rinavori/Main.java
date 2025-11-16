@@ -48,7 +48,7 @@ public class Main {
         System.out.println("Goodbye!");
     }
     private static void printMenu() {
-        System.out.println("\n--- Rinavori Menu ---");
+        System.out.println("\n Rinavori Menu ");
         System.out.println("1) Show playlist");
         System.out.println("2) Play playlist (strategy)");
         System.out.println("3) Switch strategy (normal/shuffle)");
