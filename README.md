@@ -41,11 +41,11 @@ Team Members & Contributions
 
 Student 1 — Kalzhanov Zhansultan
 Responsible for:
-- Project structure and base architecture  
-- Implementation of initial interfaces and abstract classes  
-- Integration of game entities used across all patterns  
-- Writing supporting classes used by the demo  
-- Documentation and minor refactoring  
+1) Project structure and base architecture  
+2) Implementation of initial interfaces and abstract classes  
+3) Integration of game entities used across all patterns  
+4) Writing supporting classes used by the demo  
+5) Documentation and minor refactoring  
 
 
 Student 2 — Amanzhol Aldiyar
