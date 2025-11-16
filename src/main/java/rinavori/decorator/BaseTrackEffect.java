@@ -1,5 +1,4 @@
 package rinavori.decorator;
-
 public class BaseTrackEffect implements TrackEffect {
     @Override
     public String describe() { return "No effects"; }
