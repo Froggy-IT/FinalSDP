@@ -8,14 +8,14 @@ The implementation includes interactive console-based demos, allowing users to c
 
 Implemented Design Patterns
 
-**1. Bridge Pattern**  
+1. Bridge Pattern 
 Separates abstraction from implementation, allowing both to vary independently.  
 Used to decouple different types of players from the game mechanics.
 
 Example functionality:
-- Players with different roles (Mage, Warrior, Archer)
-- Different ability implementations
-- Unified interface for executing abilities
+Players with different roles (Mage, Warrior, Archer)
+Different ability implementations
+Unified interface for executing abilities
 
 
 2. Visitor Pattern
@@ -23,9 +23,9 @@ Adds new operations to existing object structures without modifying them.
 Applied to various in-game items and objects that accept different types of visitors.
 
 Example functionality:
-- Item hierarchy (`Weapon`, `Armor`, `Potion`)
-- Visitors that apply effects (`BuffVisitor`, `DamageVisitor`)
-- Extensible without changing item classes
+Item hierarchy (`Weapon`, `Armor`, `Potion`)
+Visitors that apply effects (`BuffVisitor`, `DamageVisitor`)
+Extensible without changing item classes
 
 
 3. Strategy Pattern
@@ -33,9 +33,9 @@ Defines a family of interchangeable algorithms and encapsulates them.
 Used for different attack and movement strategies.
 
 Example functionality:
-- Attack strategies (MeleeAttack, MagicAttack, RangedAttack)
-- Movement strategies (Aggressive, Defensive, Balanced)
-- Dynamic strategy switching during runtime
+Attack strategies (MeleeAttack, MagicAttack, RangedAttack)
+Movement strategies (Aggressive, Defensive, Balanced)
+Dynamic strategy switching during runtime
 
 Team Members & Contributions
 
@@ -49,27 +49,27 @@ Responsible for:
 
 
 Student 2 — Amanzhol Aldiyar
-Responsible for implementation of **three major design patterns**:
+Responsible for implementation of three major design patterns:
 
-#### Visitor Pattern
+Visitor Pattern
 - Complete visitor hierarchy  
 - Implementations of item behaviors  
 - Accept/visit logic  
 - Demo, testing, and interactive examples  
 
-#### Bridge Pattern
+Bridge Pattern
 - Abstractions and implementations for players & abilities  
 - Full demonstration logic  
 - Clean separation of player roles and mechanics  
 
-#### Strategy Pattern
+Strategy Pattern
 - Attack and movement strategy hierarchy  
 - Runtime switching logic  
 - Integration into game character system  
 - Console demo with selectable strategies  
 
 
-### Additional Responsibilities of Student 2
+Additional Responsibilities of Student 2
 Amanzhol Aldiyar also contributed significantly to the practical execution of the project:
 
 - Wrote the entire `Main` class, including:
@@ -91,8 +91,8 @@ Amanzhol Aldiyar also contributed significantly to the practical execution of th
   and unified output formatting across all patterns.
 
 
-### Summary of Student 2 Role
-Amanzhol Aldiyar served as the **core developer responsible for all behavioral and structural logic** in the project.  
+Summary of Student 2 Role
+Amanzhol Aldiyar served as the core developer responsible for all behavioral and structural logic in the project.  
 He not only implemented the key patterns (Visitor, Bridge, Strategy),  
 but also developed the interactive main program that ties the entire system together.  
 His work made the project functional, testable, and ready for presentation.
